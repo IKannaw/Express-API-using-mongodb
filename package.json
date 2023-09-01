@@ -5,12 +5,18 @@
   "main": "service.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "node service.js"
+    "serve": "node service.js",
+    "dev": "nodemon service.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
